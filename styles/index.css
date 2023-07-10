@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Satisfy&display=swap');
+@import url("/styles/header.css");
+@import url("/styles/section.css");
+@import url("/styles/footer.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-fundo: #eddfdb;
+    --cor-rodape: #865c79;
+    --cor-verde: #748364;
+    --fonte-titulo: 'Roboto Condensed', sans-serif;
+    --fonte-paragrafo:'Satisfy', cursive;
+    --cor-fonte: #31322b;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    width: 100%;
+}
+
+
+    

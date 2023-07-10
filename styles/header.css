@@ -1,0 +1,27 @@
+.cabecalho{
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+    display: flex;
+    align-content:center;
+    align-items: center;
+    justify-content:center;
+    padding: 30px;
+    gap:100px;
+}
+
+.cabecalho__link{
+    text-decoration: none;
+    color: var(--cor-rodape); 
+}
+
+.cabecalho__link:hover{
+    text-decoration: underline;
+    color: var(--cor-verde);
+}
+
+@media screen and (max-width: 850px) {
+    .cabecalho{
+        padding: 1em;
+        gap: 10px;
+    }
+}
