@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Satisfy&display=swap');
-@import url("/styles/header.css");
-@import url("/styles/section.css");
-@import url("/styles/footer.css");
+@import url("styles/header.css");
+@import url("styles/section.css");
+@import url("styles/footer.css");
 
 *{
     margin: 0;
